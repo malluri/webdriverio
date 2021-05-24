@@ -1,0 +1,1039 @@
+2021-05-24T07:13:32.902Z INFO @wdio/local-runner: Run worker command: run
+2021-05-24T07:13:33.156Z INFO webdriverio: Initiate new session using the webdriver protocol
+2021-05-24T07:13:33.159Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session
+2021-05-24T07:13:33.159Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: { browserName: 'chrome', 'goog:chromeOptions': [Object] },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    browserName: 'chrome',
+    'goog:chromeOptions': {
+      w3c: false,
+      useAutomationExtension: false,
+      args: [Array],
+      prefs: [Object]
+    }
+  }
+}
+2021-05-24T07:13:33.787Z INFO webdriver: COMMAND navigateTo("https://opensource-demo.orangehrmlive.com/index.phppim/viewMyDetails")
+2021-05-24T07:13:33.788Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/url
+2021-05-24T07:13:33.788Z INFO webdriver: DATA {
+  url: 'https://opensource-demo.orangehrmlive.com/index.phppim/viewMyDetails'
+}
+2021-05-24T07:13:44.507Z INFO webdriver: COMMAND findElement("css selector", "#divUsername input")
+2021-05-24T07:13:44.507Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:13:44.507Z INFO webdriver: DATA { using: 'css selector', value: '#divUsername input' }
+2021-05-24T07:13:44.518Z INFO webdriver: RESULT { ELEMENT: '0.47180829897223076-1' }
+2021-05-24T07:13:44.532Z INFO webdriver: COMMAND elementClear("0.47180829897223076-1")
+2021-05-24T07:13:44.533Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.47180829897223076-1/clear
+2021-05-24T07:13:44.566Z INFO webdriver: COMMAND elementSendKeys("0.47180829897223076-1", <object>)
+2021-05-24T07:13:44.566Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.47180829897223076-1/value
+2021-05-24T07:13:44.566Z INFO webdriver: DATA { value: [ 'A', 'd', 'm', 'i', 'n' ] }
+2021-05-24T07:13:44.609Z INFO webdriver: COMMAND findElement("css selector", "#divPassword input")
+2021-05-24T07:13:44.609Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:13:44.609Z INFO webdriver: DATA { using: 'css selector', value: '#divPassword input' }
+2021-05-24T07:13:44.621Z INFO webdriver: RESULT { ELEMENT: '0.47180829897223076-3' }
+2021-05-24T07:13:44.623Z INFO webdriver: COMMAND elementClear("0.47180829897223076-3")
+2021-05-24T07:13:44.623Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.47180829897223076-3/clear
+2021-05-24T07:13:44.658Z INFO webdriver: COMMAND elementSendKeys("0.47180829897223076-3", <object>)
+2021-05-24T07:13:44.658Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.47180829897223076-3/value
+2021-05-24T07:13:44.658Z INFO webdriver: DATA { value: [
+    'a', 'd', 'm',
+    'i', 'n', '1',
+    '2', '3'
+  ] }
+2021-05-24T07:13:44.704Z INFO webdriver: COMMAND findElement("css selector", "#divLoginButton input")
+2021-05-24T07:13:44.704Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:13:44.704Z INFO webdriver: DATA { using: 'css selector', value: '#divLoginButton input' }
+2021-05-24T07:13:44.715Z INFO webdriver: RESULT { ELEMENT: '0.47180829897223076-4' }
+2021-05-24T07:13:44.718Z INFO webdriver: COMMAND elementClick("0.47180829897223076-4")
+2021-05-24T07:13:44.718Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.47180829897223076-4/click
+2021-05-24T07:14:00.224Z INFO webdriver: COMMAND findElement("css selector", ".personalDetails h1")
+2021-05-24T07:14:00.224Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.224Z INFO webdriver: DATA { using: 'css selector', value: '.personalDetails h1' }
+2021-05-24T07:14:00.237Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-1' }
+2021-05-24T07:14:00.241Z INFO webdriver: COMMAND isElementDisplayed("0.3358620184016867-1")
+2021-05-24T07:14:00.241Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.3358620184016867-1/displayed
+2021-05-24T07:14:00.255Z INFO webdriver: RESULT true
+2021-05-24T07:14:00.256Z INFO webdriver: COMMAND findElement("css selector", ".personalDetails h1")
+2021-05-24T07:14:00.256Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.256Z INFO webdriver: DATA { using: 'css selector', value: '.personalDetails h1' }
+2021-05-24T07:14:00.266Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-1' }
+2021-05-24T07:14:00.271Z INFO webdriver: COMMAND getElementText("0.3358620184016867-1")
+2021-05-24T07:14:00.271Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.3358620184016867-1/text
+2021-05-24T07:14:00.284Z INFO webdriver: RESULT Personal Details
+2021-05-24T07:14:00.285Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpPersonalDetails [value="Edit"]")
+2021-05-24T07:14:00.285Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.285Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmEmpPersonalDetails [value="Edit"]'
+}
+2021-05-24T07:14:00.296Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-2' }
+2021-05-24T07:14:00.299Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:14:00.299Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/execute
+2021-05-24T07:14:00.299Z INFO webdriver: DATA {
+  script: 'return (function (elem, options) {\n' +
+    '    elem.scrollIntoView(options);\n' +
+    '  }).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.3358620184016867-2',
+      ELEMENT: '0.3358620184016867-2'
+    },
+    true
+  ]
+}
+2021-05-24T07:14:00.305Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpPersonalDetails [value="Edit"]")
+2021-05-24T07:14:00.305Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.305Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmEmpPersonalDetails [value="Edit"]'
+}
+2021-05-24T07:14:00.313Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-2' }
+2021-05-24T07:14:00.321Z INFO webdriver: COMMAND isElementDisplayed("0.3358620184016867-2")
+2021-05-24T07:14:00.321Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.3358620184016867-2/displayed
+2021-05-24T07:14:00.333Z INFO webdriver: RESULT true
+2021-05-24T07:14:00.333Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:14:00.334Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/execute
+2021-05-24T07:14:00.334Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.3358620184016867-2',
+      ELEMENT: '0.3358620184016867-2'
+    }
+  ]
+}
+2021-05-24T07:14:00.341Z INFO webdriver: RESULT true
+2021-05-24T07:14:00.341Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpPersonalDetails [value="Edit"]")
+2021-05-24T07:14:00.341Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.341Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmEmpPersonalDetails [value="Edit"]'
+}
+2021-05-24T07:14:00.349Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-2' }
+2021-05-24T07:14:00.352Z INFO webdriver: COMMAND elementClick("0.3358620184016867-2")
+2021-05-24T07:14:00.352Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.3358620184016867-2/click
+2021-05-24T07:14:00.413Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpPersonalDetails #personal_txtEmpFirstName")
+2021-05-24T07:14:00.413Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.413Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmEmpPersonalDetails #personal_txtEmpFirstName'
+}
+2021-05-24T07:14:00.424Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-3' }
+2021-05-24T07:14:00.427Z INFO webdriver: COMMAND elementClear("0.3358620184016867-3")
+2021-05-24T07:14:00.428Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.3358620184016867-3/clear
+2021-05-24T07:14:00.464Z INFO webdriver: COMMAND elementSendKeys("0.3358620184016867-3", <object>)
+2021-05-24T07:14:00.464Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.3358620184016867-3/value
+2021-05-24T07:14:00.464Z INFO webdriver: DATA {
+  value: [
+    'c', 'u', 'r', 'r',
+    'a', 'n', '7', '5',
+    '8', '2', '8', '9',
+    '2'
+  ]
+}
+2021-05-24T07:14:00.531Z INFO webdriver: COMMAND findElement("css selector", "[name="personal[optGender]"][value="1"]")
+2021-05-24T07:14:00.532Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.532Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '[name="personal[optGender]"][value="1"]'
+}
+2021-05-24T07:14:00.542Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-5' }
+2021-05-24T07:14:00.544Z INFO webdriver: COMMAND elementClick("0.3358620184016867-5")
+2021-05-24T07:14:00.544Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.3358620184016867-5/click
+2021-05-24T07:14:00.587Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpPersonalDetails #btnSave")
+2021-05-24T07:14:00.587Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.587Z INFO webdriver: DATA { using: 'css selector', value: '#frmEmpPersonalDetails #btnSave' }
+2021-05-24T07:14:00.600Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-2' }
+2021-05-24T07:14:00.603Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:14:00.605Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/execute
+2021-05-24T07:14:00.606Z INFO webdriver: DATA {
+  script: 'return (function (elem, options) {\n' +
+    '    elem.scrollIntoView(options);\n' +
+    '  }).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.3358620184016867-2',
+      ELEMENT: '0.3358620184016867-2'
+    },
+    true
+  ]
+}
+2021-05-24T07:14:00.611Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpPersonalDetails #btnSave")
+2021-05-24T07:14:00.611Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:00.611Z INFO webdriver: DATA { using: 'css selector', value: '#frmEmpPersonalDetails #btnSave' }
+2021-05-24T07:14:00.621Z INFO webdriver: RESULT { ELEMENT: '0.3358620184016867-2' }
+2021-05-24T07:14:00.623Z INFO webdriver: COMMAND elementClick("0.3358620184016867-2")
+2021-05-24T07:14:00.623Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.3358620184016867-2/click
+2021-05-24T07:14:02.929Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpPersonalDetails #personal_txtEmpFirstName")
+2021-05-24T07:14:02.929Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:02.929Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmEmpPersonalDetails #personal_txtEmpFirstName'
+}
+2021-05-24T07:14:02.937Z INFO webdriver: RESULT { ELEMENT: '0.32039213925187227-1' }
+2021-05-24T07:14:02.939Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:14:02.939Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/execute
+2021-05-24T07:14:02.939Z INFO webdriver: DATA {
+  script: 'return (function (elem, options) {\n' +
+    '    elem.scrollIntoView(options);\n' +
+    '  }).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.32039213925187227-1',
+      ELEMENT: '0.32039213925187227-1'
+    },
+    true
+  ]
+}
+2021-05-24T07:14:02.944Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpPersonalDetails #personal_txtEmpFirstName")
+2021-05-24T07:14:02.944Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:02.944Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmEmpPersonalDetails #personal_txtEmpFirstName'
+}
+2021-05-24T07:14:02.953Z INFO webdriver: RESULT { ELEMENT: '0.32039213925187227-1' }
+2021-05-24T07:14:02.956Z INFO webdriver: COMMAND getElementAttribute("0.32039213925187227-1", "value")
+2021-05-24T07:14:02.956Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.32039213925187227-1/attribute/value
+2021-05-24T07:14:02.967Z INFO webdriver: RESULT curran7582892
+2021-05-24T07:14:02.968Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:14:02.968Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:02.968Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:14:02.978Z INFO webdriver: RESULT { ELEMENT: '0.32039213925187227-2' }
+2021-05-24T07:14:02.981Z INFO webdriver: COMMAND moveToElement("0.32039213925187227-2", undefined, undefined)
+2021-05-24T07:14:02.981Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/moveto
+2021-05-24T07:14:02.981Z INFO webdriver: DATA { element: '0.32039213925187227-2' }
+2021-05-24T07:14:03.003Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:14:03.003Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:03.003Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:14:03.010Z INFO webdriver: RESULT { ELEMENT: '0.32039213925187227-2' }
+2021-05-24T07:14:03.012Z INFO webdriver: COMMAND isElementDisplayed("0.32039213925187227-2")
+2021-05-24T07:14:03.013Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.32039213925187227-2/displayed
+2021-05-24T07:14:03.024Z INFO webdriver: RESULT true
+2021-05-24T07:14:03.024Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:14:03.024Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/execute
+2021-05-24T07:14:03.024Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.32039213925187227-2',
+      ELEMENT: '0.32039213925187227-2'
+    }
+  ]
+}
+2021-05-24T07:14:03.030Z INFO webdriver: RESULT true
+2021-05-24T07:14:03.031Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:14:03.031Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:03.031Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:14:03.039Z INFO webdriver: RESULT { ELEMENT: '0.32039213925187227-2' }
+2021-05-24T07:14:03.041Z INFO webdriver: COMMAND elementClick("0.32039213925187227-2")
+2021-05-24T07:14:03.041Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.32039213925187227-2/click
+2021-05-24T07:14:03.076Z INFO webdriver: COMMAND findElement("css selector", "[href*=logout]")
+2021-05-24T07:14:03.077Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:03.077Z INFO webdriver: DATA { using: 'css selector', value: '[href*=logout]' }
+2021-05-24T07:14:03.090Z INFO webdriver: RESULT { ELEMENT: '0.32039213925187227-3' }
+2021-05-24T07:14:03.092Z INFO webdriver: COMMAND isElementDisplayed("0.32039213925187227-3")
+2021-05-24T07:14:03.092Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.32039213925187227-3/displayed
+2021-05-24T07:14:03.104Z INFO webdriver: RESULT false
+2021-05-24T07:14:03.594Z INFO webdriver: COMMAND isElementDisplayed("0.32039213925187227-3")
+2021-05-24T07:14:03.595Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.32039213925187227-3/displayed
+2021-05-24T07:14:03.608Z INFO webdriver: RESULT true
+2021-05-24T07:14:03.609Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:14:03.609Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/execute
+2021-05-24T07:14:03.609Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.32039213925187227-3',
+      ELEMENT: '0.32039213925187227-3'
+    }
+  ]
+}
+2021-05-24T07:14:03.615Z INFO webdriver: RESULT true
+2021-05-24T07:14:03.615Z INFO webdriver: COMMAND findElement("css selector", "[href*=logout]")
+2021-05-24T07:14:03.615Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:03.615Z INFO webdriver: DATA { using: 'css selector', value: '[href*=logout]' }
+2021-05-24T07:14:03.623Z INFO webdriver: RESULT { ELEMENT: '0.32039213925187227-3' }
+2021-05-24T07:14:03.625Z INFO webdriver: COMMAND elementClick("0.32039213925187227-3")
+2021-05-24T07:14:03.625Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.32039213925187227-3/click
+2021-05-24T07:14:05.309Z INFO webdriver: COMMAND navigateTo("https://opensource-demo.orangehrmlive.com/index.phppim/viewMyDetails")
+2021-05-24T07:14:05.309Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/url
+2021-05-24T07:14:05.309Z INFO webdriver: DATA {
+  url: 'https://opensource-demo.orangehrmlive.com/index.phppim/viewMyDetails'
+}
+2021-05-24T07:14:06.643Z INFO webdriver: COMMAND findElement("css selector", "#divUsername input")
+2021-05-24T07:14:06.643Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:06.643Z INFO webdriver: DATA { using: 'css selector', value: '#divUsername input' }
+2021-05-24T07:14:06.659Z INFO webdriver: RESULT { ELEMENT: '0.6863162316980562-1' }
+2021-05-24T07:14:06.660Z INFO webdriver: COMMAND elementClear("0.6863162316980562-1")
+2021-05-24T07:14:06.660Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.6863162316980562-1/clear
+2021-05-24T07:14:06.691Z INFO webdriver: COMMAND elementSendKeys("0.6863162316980562-1", <object>)
+2021-05-24T07:14:06.691Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.6863162316980562-1/value
+2021-05-24T07:14:06.691Z INFO webdriver: DATA { value: [ 'A', 'd', 'm', 'i', 'n' ] }
+2021-05-24T07:14:06.733Z INFO webdriver: COMMAND findElement("css selector", "#divPassword input")
+2021-05-24T07:14:06.733Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:06.733Z INFO webdriver: DATA { using: 'css selector', value: '#divPassword input' }
+2021-05-24T07:14:06.743Z INFO webdriver: RESULT { ELEMENT: '0.6863162316980562-3' }
+2021-05-24T07:14:06.746Z INFO webdriver: COMMAND elementClear("0.6863162316980562-3")
+2021-05-24T07:14:06.746Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.6863162316980562-3/clear
+2021-05-24T07:14:06.779Z INFO webdriver: COMMAND elementSendKeys("0.6863162316980562-3", <object>)
+2021-05-24T07:14:06.779Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.6863162316980562-3/value
+2021-05-24T07:14:06.779Z INFO webdriver: DATA { value: [
+    'a', 'd', 'm',
+    'i', 'n', '1',
+    '2', '3'
+  ] }
+2021-05-24T07:14:06.823Z INFO webdriver: COMMAND findElement("css selector", "#divLoginButton input")
+2021-05-24T07:14:06.823Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:06.823Z INFO webdriver: DATA { using: 'css selector', value: '#divLoginButton input' }
+2021-05-24T07:14:06.834Z INFO webdriver: RESULT { ELEMENT: '0.6863162316980562-4' }
+2021-05-24T07:14:06.836Z INFO webdriver: COMMAND elementClick("0.6863162316980562-4")
+2021-05-24T07:14:06.836Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.6863162316980562-4/click
+2021-05-24T07:14:09.473Z INFO webdriver: COMMAND findElement("css selector", ".personalDetails h1")
+2021-05-24T07:14:09.473Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:09.473Z INFO webdriver: DATA { using: 'css selector', value: '.personalDetails h1' }
+2021-05-24T07:14:09.480Z INFO webdriver: RESULT { ELEMENT: '0.7877152565984322-1' }
+2021-05-24T07:14:09.482Z INFO webdriver: COMMAND isElementDisplayed("0.7877152565984322-1")
+2021-05-24T07:14:09.482Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.7877152565984322-1/displayed
+2021-05-24T07:14:09.493Z INFO webdriver: RESULT true
+2021-05-24T07:14:09.493Z INFO webdriver: COMMAND findElement("css selector", ".personalDetails h1")
+2021-05-24T07:14:09.493Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:09.493Z INFO webdriver: DATA { using: 'css selector', value: '.personalDetails h1' }
+2021-05-24T07:14:09.500Z INFO webdriver: RESULT { ELEMENT: '0.7877152565984322-1' }
+2021-05-24T07:14:09.502Z INFO webdriver: COMMAND getElementText("0.7877152565984322-1")
+2021-05-24T07:14:09.503Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.7877152565984322-1/text
+2021-05-24T07:14:09.515Z INFO webdriver: RESULT Personal Details
+2021-05-24T07:14:09.515Z INFO webdriver: COMMAND findElement("css selector", "#attachmentActions #btnAddAttachment")
+2021-05-24T07:14:09.516Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:09.516Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#attachmentActions #btnAddAttachment'
+}
+2021-05-24T07:14:09.529Z INFO webdriver: RESULT { ELEMENT: '0.7877152565984322-2' }
+2021-05-24T07:14:09.530Z INFO webdriver: COMMAND elementClick("0.7877152565984322-2")
+2021-05-24T07:14:09.531Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.7877152565984322-2/click
+2021-05-24T07:14:09.617Z INFO webdriver: COMMAND file("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")
+2021-05-24T07:14:09.617Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/file
+2021-05-24T07:14:09.617Z INFO webdriver: DATA {
+  file: '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'
+}
+2021-05-24T07:14:09.621Z INFO webdriver: RESULT /tmp/42ff6f0e910ba313f81a489249184281/upload9575728730093033451file/camel.jpeg
+2021-05-24T07:14:09.621Z INFO webdriver: COMMAND findElement("css selector", ".fieldHelpContainer input[type="file"]")
+2021-05-24T07:14:09.621Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:09.621Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '.fieldHelpContainer input[type="file"]'
+}
+2021-05-24T07:14:09.632Z INFO webdriver: RESULT { ELEMENT: '0.7877152565984322-3' }
+2021-05-24T07:14:09.635Z INFO webdriver: COMMAND elementClear("0.7877152565984322-3")
+2021-05-24T07:14:09.635Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.7877152565984322-3/clear
+2021-05-24T07:14:09.671Z INFO webdriver: COMMAND elementSendKeys("0.7877152565984322-3", <object>)
+2021-05-24T07:14:09.671Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.7877152565984322-3/value
+2021-05-24T07:14:09.671Z INFO webdriver: DATA {
+  value: [
+    '/', 'h', 'o', 'm', 'e', '/', 'm', 'a', 'l',
+    'l', 'u', 'r', 'i', '/', 'D', 'o', 'c', 'u',
+    'm', 'e', 'n', 't', 's', '/', 'w', 'e', 'b',
+    'd', 'r', 'i', 'v', 'e', 'r', 'A', 's', 's',
+    'i', 'g', 'n', '/', 't', 'e', 's', 't', '/',
+    'd', 'a', 't', 'a', '/', 'c', 'a', 'm', 'e',
+    'l', '.', 'j', 'p', 'e', 'g'
+  ]
+}
+2021-05-24T07:14:09.701Z INFO webdriver: COMMAND findElement("css selector", "#frmEmpAttachment #btnSaveAttachment ")
+2021-05-24T07:14:09.701Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:09.701Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmEmpAttachment #btnSaveAttachment '
+}
+2021-05-24T07:14:09.713Z INFO webdriver: RESULT { ELEMENT: '0.7877152565984322-4' }
+2021-05-24T07:14:09.715Z INFO webdriver: COMMAND elementClick("0.7877152565984322-4")
+2021-05-24T07:14:09.715Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.7877152565984322-4/click
+2021-05-24T07:14:11.924Z INFO webdriver: COMMAND findElements("css selector", "#tblAttachments tbody tr")
+2021-05-24T07:14:11.924Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/elements
+2021-05-24T07:14:11.924Z INFO webdriver: DATA { using: 'css selector', value: '#tblAttachments tbody tr' }
+2021-05-24T07:14:11.935Z INFO webdriver: RESULT [
+  { ELEMENT: '0.574462950452846-1' },
+  { ELEMENT: '0.574462950452846-2' }
+]
+2021-05-24T07:14:11.938Z INFO webdriver: COMMAND findElements("css selector", "#tblAttachments tbody tr")
+2021-05-24T07:14:11.938Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/elements
+2021-05-24T07:14:11.938Z INFO webdriver: DATA { using: 'css selector', value: '#tblAttachments tbody tr' }
+2021-05-24T07:14:11.946Z INFO webdriver: RESULT [
+  { ELEMENT: '0.574462950452846-1' },
+  { ELEMENT: '0.574462950452846-2' }
+]
+2021-05-24T07:14:11.949Z INFO webdriver: COMMAND findElements("css selector", "#tblAttachments tbody tr .fileLink")
+2021-05-24T07:14:11.949Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/elements
+2021-05-24T07:14:11.949Z INFO webdriver: DATA { using: 'css selector', value: '#tblAttachments tbody tr .fileLink' }
+2021-05-24T07:14:11.962Z INFO webdriver: RESULT [
+  { ELEMENT: '0.574462950452846-3' },
+  { ELEMENT: '0.574462950452846-4' }
+]
+2021-05-24T07:14:11.966Z INFO webdriver: COMMAND getElementText("0.574462950452846-3")
+2021-05-24T07:14:11.966Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.574462950452846-3/text
+2021-05-24T07:14:11.979Z INFO webdriver: RESULT camel.jpeg
+2021-05-24T07:14:11.980Z INFO webdriver: COMMAND getElementText("0.574462950452846-4")
+2021-05-24T07:14:11.980Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.574462950452846-4/text
+2021-05-24T07:14:11.992Z INFO webdriver: RESULT jmeter.log
+2021-05-24T07:14:11.994Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:14:11.994Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:11.994Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:14:12.002Z INFO webdriver: RESULT { ELEMENT: '0.574462950452846-5' }
+2021-05-24T07:14:12.003Z INFO webdriver: COMMAND moveToElement("0.574462950452846-5", undefined, undefined)
+2021-05-24T07:14:12.003Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/moveto
+2021-05-24T07:14:12.003Z INFO webdriver: DATA { element: '0.574462950452846-5' }
+2021-05-24T07:14:12.036Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:14:12.036Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:12.036Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:14:12.046Z INFO webdriver: RESULT { ELEMENT: '0.574462950452846-5' }
+2021-05-24T07:14:12.049Z INFO webdriver: COMMAND isElementDisplayed("0.574462950452846-5")
+2021-05-24T07:14:12.050Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.574462950452846-5/displayed
+2021-05-24T07:14:12.059Z INFO webdriver: RESULT true
+2021-05-24T07:14:12.060Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:14:12.060Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/execute
+2021-05-24T07:14:12.060Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.574462950452846-5',
+      ELEMENT: '0.574462950452846-5'
+    }
+  ]
+}
+2021-05-24T07:14:12.067Z INFO webdriver: RESULT true
+2021-05-24T07:14:12.067Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:14:12.067Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:12.067Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:14:12.076Z INFO webdriver: RESULT { ELEMENT: '0.574462950452846-5' }
+2021-05-24T07:14:12.078Z INFO webdriver: COMMAND elementClick("0.574462950452846-5")
+2021-05-24T07:14:12.078Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.574462950452846-5/click
+2021-05-24T07:14:12.112Z INFO webdriver: COMMAND findElement("css selector", "[href*=logout]")
+2021-05-24T07:14:12.112Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:12.112Z INFO webdriver: DATA { using: 'css selector', value: '[href*=logout]' }
+2021-05-24T07:14:12.124Z INFO webdriver: RESULT { ELEMENT: '0.574462950452846-6' }
+2021-05-24T07:14:12.126Z INFO webdriver: COMMAND isElementDisplayed("0.574462950452846-6")
+2021-05-24T07:14:12.126Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.574462950452846-6/displayed
+2021-05-24T07:14:12.138Z INFO webdriver: RESULT false
+2021-05-24T07:14:12.627Z INFO webdriver: COMMAND isElementDisplayed("0.574462950452846-6")
+2021-05-24T07:14:12.628Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.574462950452846-6/displayed
+2021-05-24T07:14:12.640Z INFO webdriver: RESULT true
+2021-05-24T07:14:12.641Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:14:12.641Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/execute
+2021-05-24T07:14:12.641Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.574462950452846-6',
+      ELEMENT: '0.574462950452846-6'
+    }
+  ]
+}
+2021-05-24T07:14:12.648Z INFO webdriver: RESULT true
+2021-05-24T07:14:12.649Z INFO webdriver: COMMAND findElement("css selector", "[href*=logout]")
+2021-05-24T07:14:12.649Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element
+2021-05-24T07:14:12.649Z INFO webdriver: DATA { using: 'css selector', value: '[href*=logout]' }
+2021-05-24T07:14:12.656Z INFO webdriver: RESULT { ELEMENT: '0.574462950452846-6' }
+2021-05-24T07:14:12.658Z INFO webdriver: COMMAND elementClick("0.574462950452846-6")
+2021-05-24T07:14:12.658Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/element/0.574462950452846-6/click
+2021-05-24T07:14:14.632Z INFO webdriver: COMMAND getLogTypes()
+2021-05-24T07:14:14.632Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/se/log/types
+2021-05-24T07:14:14.634Z INFO webdriver: RESULT [ 'browser', 'driver' ]
+2021-05-24T07:14:14.635Z INFO webdriver: COMMAND getLogs("browser")
+2021-05-24T07:14:14.635Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/se/log
+2021-05-24T07:14:14.635Z INFO webdriver: DATA { type: 'browser' }
+2021-05-24T07:14:14.635Z INFO webdriver: COMMAND getLogs("driver")
+2021-05-24T07:14:14.635Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281/se/log
+2021-05-24T07:14:14.635Z INFO webdriver: DATA { type: 'driver' }
+2021-05-24T07:14:14.638Z INFO webdriver: RESULT []
+2021-05-24T07:14:14.639Z INFO webdriver: RESULT [
+  {
+    level: 'WARNING',
+    message: 'Deprecated chrome option is ignored: useAutomationExtension\n',
+    timestamp: 1621840413249
+  }
+]
+2021-05-24T07:14:14.640Z INFO webdriver: COMMAND deleteSession()
+2021-05-24T07:14:14.640Z INFO webdriver: [DELETE] http://127.0.0.1:4444/wd/hub/session/42ff6f0e910ba313f81a489249184281

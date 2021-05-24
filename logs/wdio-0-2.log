@@ -1,0 +1,2079 @@
+2021-05-24T07:14:15.124Z INFO @wdio/local-runner: Run worker command: run
+2021-05-24T07:14:15.269Z INFO webdriverio: Initiate new session using the webdriver protocol
+2021-05-24T07:14:15.271Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session
+2021-05-24T07:14:15.271Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: { browserName: 'chrome', 'goog:chromeOptions': [Object] },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    browserName: 'chrome',
+    'goog:chromeOptions': {
+      w3c: false,
+      useAutomationExtension: false,
+      args: [Array],
+      prefs: [Object]
+    }
+  }
+}
+2021-05-24T07:14:15.618Z INFO webdriver: COMMAND navigateTo("https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList")
+2021-05-24T07:14:15.618Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/url
+2021-05-24T07:14:15.618Z INFO webdriver: DATA {
+  url: 'https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList'
+}
+2021-05-24T07:15:03.606Z INFO webdriver: COMMAND findElement("css selector", "#divUsername input")
+2021-05-24T07:15:03.607Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:03.607Z INFO webdriver: DATA { using: 'css selector', value: '#divUsername input' }
+2021-05-24T07:15:03.618Z INFO webdriver: RESULT { ELEMENT: '0.3626412028773953-1' }
+2021-05-24T07:15:03.627Z INFO webdriver: COMMAND elementClear("0.3626412028773953-1")
+2021-05-24T07:15:03.627Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.3626412028773953-1/clear
+2021-05-24T07:15:03.661Z INFO webdriver: COMMAND elementSendKeys("0.3626412028773953-1", <object>)
+2021-05-24T07:15:03.662Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.3626412028773953-1/value
+2021-05-24T07:15:03.662Z INFO webdriver: DATA { value: [ 'A', 'd', 'm', 'i', 'n' ] }
+2021-05-24T07:15:03.712Z INFO webdriver: COMMAND findElement("css selector", "#divPassword input")
+2021-05-24T07:15:03.713Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:03.713Z INFO webdriver: DATA { using: 'css selector', value: '#divPassword input' }
+2021-05-24T07:15:03.724Z INFO webdriver: RESULT { ELEMENT: '0.3626412028773953-3' }
+2021-05-24T07:15:03.728Z INFO webdriver: COMMAND elementClear("0.3626412028773953-3")
+2021-05-24T07:15:03.728Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.3626412028773953-3/clear
+2021-05-24T07:15:03.756Z INFO webdriver: COMMAND elementSendKeys("0.3626412028773953-3", <object>)
+2021-05-24T07:15:03.757Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.3626412028773953-3/value
+2021-05-24T07:15:03.757Z INFO webdriver: DATA { value: [
+    'a', 'd', 'm',
+    'i', 'n', '1',
+    '2', '3'
+  ] }
+2021-05-24T07:15:03.807Z INFO webdriver: COMMAND findElement("css selector", "#divLoginButton input")
+2021-05-24T07:15:03.807Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:03.807Z INFO webdriver: DATA { using: 'css selector', value: '#divLoginButton input' }
+2021-05-24T07:15:03.819Z INFO webdriver: RESULT { ELEMENT: '0.3626412028773953-4' }
+2021-05-24T07:15:03.830Z INFO webdriver: COMMAND elementClick("0.3626412028773953-4")
+2021-05-24T07:15:03.831Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.3626412028773953-4/click
+2021-05-24T07:15:16.803Z INFO webdriver: COMMAND findElement("css selector", "#menu_pim_addEmployee")
+2021-05-24T07:15:16.803Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:16.803Z INFO webdriver: DATA { using: 'css selector', value: '#menu_pim_addEmployee' }
+2021-05-24T07:15:16.818Z INFO webdriver: RESULT { ELEMENT: '0.43375601703003164-1' }
+2021-05-24T07:15:16.823Z INFO webdriver: COMMAND isElementDisplayed("0.43375601703003164-1")
+2021-05-24T07:15:16.824Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.43375601703003164-1/displayed
+2021-05-24T07:15:16.836Z INFO webdriver: RESULT true
+2021-05-24T07:15:16.836Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:15:16.836Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/execute
+2021-05-24T07:15:16.836Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.43375601703003164-1',
+      ELEMENT: '0.43375601703003164-1'
+    }
+  ]
+}
+2021-05-24T07:15:16.844Z INFO webdriver: RESULT true
+2021-05-24T07:15:16.845Z INFO webdriver: COMMAND findElement("css selector", "#menu_pim_addEmployee")
+2021-05-24T07:15:16.845Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:16.845Z INFO webdriver: DATA { using: 'css selector', value: '#menu_pim_addEmployee' }
+2021-05-24T07:15:16.852Z INFO webdriver: RESULT { ELEMENT: '0.43375601703003164-1' }
+2021-05-24T07:15:16.857Z INFO webdriver: COMMAND elementClick("0.43375601703003164-1")
+2021-05-24T07:15:16.858Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.43375601703003164-1/click
+2021-05-24T07:15:25.380Z INFO webdriver: COMMAND findElement("css selector", "#frmAddEmp #firstName")
+2021-05-24T07:15:25.380Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:25.380Z INFO webdriver: DATA { using: 'css selector', value: '#frmAddEmp #firstName' }
+2021-05-24T07:15:25.399Z INFO webdriver: RESULT { ELEMENT: '0.4487528003042631-1' }
+2021-05-24T07:15:25.402Z INFO webdriver: COMMAND elementClear("0.4487528003042631-1")
+2021-05-24T07:15:25.402Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.4487528003042631-1/clear
+2021-05-24T07:15:25.435Z INFO webdriver: COMMAND elementSendKeys("0.4487528003042631-1", <object>)
+2021-05-24T07:15:25.435Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.4487528003042631-1/value
+2021-05-24T07:15:25.435Z INFO webdriver: DATA {
+  value: [
+    'j', 'o', 'h', 'n',
+    '5', '7', '3', '1',
+    '7', '9', '9'
+  ]
+}
+2021-05-24T07:15:25.494Z INFO webdriver: COMMAND findElement("css selector", "#frmAddEmp #middleName")
+2021-05-24T07:15:25.494Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:25.495Z INFO webdriver: DATA { using: 'css selector', value: '#frmAddEmp #middleName' }
+2021-05-24T07:15:25.505Z INFO webdriver: RESULT { ELEMENT: '0.4487528003042631-3' }
+2021-05-24T07:15:25.508Z INFO webdriver: COMMAND elementClear("0.4487528003042631-3")
+2021-05-24T07:15:25.509Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.4487528003042631-3/clear
+2021-05-24T07:15:25.541Z INFO webdriver: COMMAND elementSendKeys("0.4487528003042631-3", <object>)
+2021-05-24T07:15:25.541Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.4487528003042631-3/value
+2021-05-24T07:15:25.541Z INFO webdriver: DATA {
+  value: [
+    'k', 'u', 'm', 'a',
+    'r', '3', '3', '2',
+    '6', '2', '4', '5'
+  ]
+}
+2021-05-24T07:15:25.593Z INFO webdriver: COMMAND findElement("css selector", "#frmAddEmp #lastName")
+2021-05-24T07:15:25.593Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:25.593Z INFO webdriver: DATA { using: 'css selector', value: '#frmAddEmp #lastName' }
+2021-05-24T07:15:25.604Z INFO webdriver: RESULT { ELEMENT: '0.4487528003042631-4' }
+2021-05-24T07:15:25.606Z INFO webdriver: COMMAND elementClear("0.4487528003042631-4")
+2021-05-24T07:15:25.606Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.4487528003042631-4/clear
+2021-05-24T07:15:25.639Z INFO webdriver: COMMAND elementSendKeys("0.4487528003042631-4", <object>)
+2021-05-24T07:15:25.639Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.4487528003042631-4/value
+2021-05-24T07:15:25.639Z INFO webdriver: DATA {
+  value: [
+    'g', 'a', 'r', 'a',
+    '1', '0', '7', '4',
+    '9', '5', '9'
+  ]
+}
+2021-05-24T07:15:25.693Z INFO webdriver: COMMAND findElement("css selector", "#frmAddEmp #btnSave")
+2021-05-24T07:15:25.693Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:25.693Z INFO webdriver: DATA { using: 'css selector', value: '#frmAddEmp #btnSave' }
+2021-05-24T07:15:25.703Z INFO webdriver: RESULT { ELEMENT: '0.4487528003042631-5' }
+2021-05-24T07:15:25.707Z INFO webdriver: COMMAND elementClick("0.4487528003042631-5")
+2021-05-24T07:15:25.707Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.4487528003042631-5/click
+2021-05-24T07:15:40.402Z INFO webdriver: COMMAND navigateTo("https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers")
+2021-05-24T07:15:40.403Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/url
+2021-05-24T07:15:40.403Z INFO webdriver: DATA {
+  url: 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers'
+}
+2021-05-24T07:15:44.966Z INFO webdriver: COMMAND findElement("css selector", "#menu_admin_UserManagement")
+2021-05-24T07:15:44.967Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:44.967Z INFO webdriver: DATA { using: 'css selector', value: '#menu_admin_UserManagement' }
+2021-05-24T07:15:44.978Z INFO webdriver: RESULT { ELEMENT: '0.6455733050676757-1' }
+2021-05-24T07:15:44.983Z INFO webdriver: COMMAND isElementDisplayed("0.6455733050676757-1")
+2021-05-24T07:15:44.983Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.6455733050676757-1/displayed
+2021-05-24T07:15:44.995Z INFO webdriver: RESULT true
+2021-05-24T07:15:44.995Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:15:44.995Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/execute
+2021-05-24T07:15:44.995Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.6455733050676757-1',
+      ELEMENT: '0.6455733050676757-1'
+    }
+  ]
+}
+2021-05-24T07:15:45.001Z INFO webdriver: RESULT true
+2021-05-24T07:15:45.002Z INFO webdriver: COMMAND findElement("css selector", "#menu_admin_UserManagement")
+2021-05-24T07:15:45.002Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:45.002Z INFO webdriver: DATA { using: 'css selector', value: '#menu_admin_UserManagement' }
+2021-05-24T07:15:45.009Z INFO webdriver: RESULT { ELEMENT: '0.6455733050676757-1' }
+2021-05-24T07:15:45.015Z INFO webdriver: COMMAND moveToElement("0.6455733050676757-1", undefined, undefined)
+2021-05-24T07:15:45.015Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/moveto
+2021-05-24T07:15:45.015Z INFO webdriver: DATA { element: '0.6455733050676757-1' }
+2021-05-24T07:15:45.055Z INFO webdriver: COMMAND findElement("css selector", "#menu_admin_viewSystemUsers")
+2021-05-24T07:15:45.055Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:45.055Z INFO webdriver: DATA { using: 'css selector', value: '#menu_admin_viewSystemUsers' }
+2021-05-24T07:15:45.066Z INFO webdriver: RESULT { ELEMENT: '0.6455733050676757-2' }
+2021-05-24T07:15:45.068Z INFO webdriver: COMMAND isElementDisplayed("0.6455733050676757-2")
+2021-05-24T07:15:45.068Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.6455733050676757-2/displayed
+2021-05-24T07:15:45.079Z INFO webdriver: RESULT true
+2021-05-24T07:15:45.079Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:15:45.079Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/execute
+2021-05-24T07:15:45.079Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.6455733050676757-2',
+      ELEMENT: '0.6455733050676757-2'
+    }
+  ]
+}
+2021-05-24T07:15:45.086Z INFO webdriver: RESULT true
+2021-05-24T07:15:45.087Z INFO webdriver: COMMAND findElement("css selector", "#menu_admin_viewSystemUsers")
+2021-05-24T07:15:45.087Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:45.087Z INFO webdriver: DATA { using: 'css selector', value: '#menu_admin_viewSystemUsers' }
+2021-05-24T07:15:45.094Z INFO webdriver: RESULT { ELEMENT: '0.6455733050676757-2' }
+2021-05-24T07:15:45.096Z INFO webdriver: COMMAND elementClick("0.6455733050676757-2")
+2021-05-24T07:15:45.096Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.6455733050676757-2/click
+2021-05-24T07:15:49.087Z INFO webdriver: COMMAND findElement("css selector", "#customerList #btnAdd")
+2021-05-24T07:15:49.087Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:49.088Z INFO webdriver: DATA { using: 'css selector', value: '#customerList #btnAdd' }
+2021-05-24T07:15:49.105Z INFO webdriver: RESULT { ELEMENT: '0.14156847177711573-1' }
+2021-05-24T07:15:49.108Z INFO webdriver: COMMAND elementClick("0.14156847177711573-1")
+2021-05-24T07:15:49.108Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.14156847177711573-1/click
+2021-05-24T07:15:51.294Z INFO webdriver: COMMAND findElement("css selector", "#systemUser_userType")
+2021-05-24T07:15:51.294Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:51.294Z INFO webdriver: DATA { using: 'css selector', value: '#systemUser_userType' }
+2021-05-24T07:15:51.306Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-1' }
+2021-05-24T07:15:51.307Z INFO webdriver: COMMAND isElementDisplayed("0.06703991284507338-1")
+2021-05-24T07:15:51.308Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-1/displayed
+2021-05-24T07:15:51.320Z INFO webdriver: RESULT true
+2021-05-24T07:15:51.320Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:15:51.321Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/execute
+2021-05-24T07:15:51.321Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.06703991284507338-1',
+      ELEMENT: '0.06703991284507338-1'
+    }
+  ]
+}
+2021-05-24T07:15:51.328Z INFO webdriver: RESULT true
+2021-05-24T07:15:51.329Z INFO webdriver: COMMAND findElement("css selector", "#systemUser_userType")
+2021-05-24T07:15:51.329Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:51.329Z INFO webdriver: DATA { using: 'css selector', value: '#systemUser_userType' }
+2021-05-24T07:15:51.336Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-1' }
+2021-05-24T07:15:51.338Z INFO webdriver: COMMAND elementClick("0.06703991284507338-1")
+2021-05-24T07:15:51.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-1/click
+2021-05-24T07:15:51.385Z INFO webdriver: COMMAND findElements("css selector", "#systemUser_userType option")
+2021-05-24T07:15:51.386Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/elements
+2021-05-24T07:15:51.386Z INFO webdriver: DATA { using: 'css selector', value: '#systemUser_userType option' }
+2021-05-24T07:15:51.396Z INFO webdriver: RESULT [
+  { ELEMENT: '0.06703991284507338-2' },
+  { ELEMENT: '0.06703991284507338-3' }
+]
+2021-05-24T07:15:51.399Z INFO webdriver: COMMAND getElementText("0.06703991284507338-2")
+2021-05-24T07:15:51.399Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-2/text
+2021-05-24T07:15:51.412Z INFO webdriver: RESULT Admin
+2021-05-24T07:15:51.412Z INFO webdriver: COMMAND getElementText("0.06703991284507338-3")
+2021-05-24T07:15:51.412Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-3/text
+2021-05-24T07:15:51.425Z INFO webdriver: RESULT ESS
+2021-05-24T07:15:51.426Z INFO webdriver: COMMAND elementClick("0.06703991284507338-2")
+2021-05-24T07:15:51.426Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-2/click
+2021-05-24T07:15:51.451Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #systemUser_employeeName_empName")
+2021-05-24T07:15:51.451Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:51.451Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmSystemUser #systemUser_employeeName_empName'
+}
+2021-05-24T07:15:51.462Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-4' }
+2021-05-24T07:15:51.465Z INFO webdriver: COMMAND elementClear("0.06703991284507338-4")
+2021-05-24T07:15:51.465Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-4/clear
+2021-05-24T07:15:51.507Z INFO webdriver: COMMAND elementSendKeys("0.06703991284507338-4", <object>)
+2021-05-24T07:15:51.507Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-4/value
+2021-05-24T07:15:51.507Z INFO webdriver: DATA {
+  value: [
+    'j', 'o', 'h', 'n', '5', '7', '3',
+    '1', '7', '9', '9', ' ', 'k', 'u',
+    'm', 'a', 'r', '3', '3', '2', '6',
+    '2', '4', '5', ' ', 'g', 'a', 'r',
+    'a', '1', '0', '7', '4', '9', '5',
+    '9'
+  ]
+}
+2021-05-24T07:15:51.636Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #systemUser_userName")
+2021-05-24T07:15:51.636Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:51.636Z INFO webdriver: DATA { using: 'css selector', value: '#frmSystemUser #systemUser_userName' }
+2021-05-24T07:15:51.653Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-6' }
+2021-05-24T07:15:51.656Z INFO webdriver: COMMAND elementClear("0.06703991284507338-6")
+2021-05-24T07:15:51.656Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-6/clear
+2021-05-24T07:15:51.684Z INFO webdriver: COMMAND elementSendKeys("0.06703991284507338-6", <object>)
+2021-05-24T07:15:51.685Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-6/value
+2021-05-24T07:15:51.685Z INFO webdriver: DATA {
+  value: [
+    'c', 'u', 'r', 'r',
+    'a', 'n', '9', '0',
+    '2', '3', '7', '5'
+  ]
+}
+2021-05-24T07:15:51.744Z INFO webdriver: COMMAND sendKeys(<object>)
+2021-05-24T07:15:51.744Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/keys
+2021-05-24T07:15:51.744Z INFO webdriver: DATA { value: [ '' ] }
+2021-05-24T07:15:51.748Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #systemUser_status")
+2021-05-24T07:15:51.749Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:51.749Z INFO webdriver: DATA { using: 'css selector', value: '#frmSystemUser #systemUser_status' }
+2021-05-24T07:15:51.759Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-7' }
+2021-05-24T07:15:51.762Z INFO webdriver: COMMAND isElementDisplayed("0.06703991284507338-7")
+2021-05-24T07:15:51.762Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-7/displayed
+2021-05-24T07:15:51.779Z INFO webdriver: RESULT true
+2021-05-24T07:15:51.779Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:15:51.779Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/execute
+2021-05-24T07:15:51.779Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.06703991284507338-7',
+      ELEMENT: '0.06703991284507338-7'
+    }
+  ]
+}
+2021-05-24T07:15:51.785Z INFO webdriver: RESULT true
+2021-05-24T07:15:51.785Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #systemUser_status")
+2021-05-24T07:15:51.785Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:51.785Z INFO webdriver: DATA { using: 'css selector', value: '#frmSystemUser #systemUser_status' }
+2021-05-24T07:15:51.792Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-7' }
+2021-05-24T07:15:51.794Z INFO webdriver: COMMAND elementClick("0.06703991284507338-7")
+2021-05-24T07:15:51.794Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-7/click
+2021-05-24T07:15:51.842Z INFO webdriver: COMMAND findElements("css selector", "#frmSystemUser #systemUser_status option")
+2021-05-24T07:15:51.843Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/elements
+2021-05-24T07:15:51.843Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmSystemUser #systemUser_status option'
+}
+2021-05-24T07:15:51.855Z INFO webdriver: RESULT [
+  { ELEMENT: '0.06703991284507338-8' },
+  { ELEMENT: '0.06703991284507338-9' }
+]
+2021-05-24T07:15:51.857Z INFO webdriver: COMMAND getElementText("0.06703991284507338-8")
+2021-05-24T07:15:51.857Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-8/text
+2021-05-24T07:15:51.870Z INFO webdriver: RESULT Enabled
+2021-05-24T07:15:51.871Z INFO webdriver: COMMAND getElementText("0.06703991284507338-9")
+2021-05-24T07:15:51.871Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-9/text
+2021-05-24T07:15:51.884Z INFO webdriver: RESULT Disabled
+2021-05-24T07:15:51.885Z INFO webdriver: COMMAND elementClick("0.06703991284507338-8")
+2021-05-24T07:15:51.885Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-8/click
+2021-05-24T07:15:51.908Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #systemUser_password")
+2021-05-24T07:15:51.908Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:51.908Z INFO webdriver: DATA { using: 'css selector', value: '#frmSystemUser #systemUser_password' }
+2021-05-24T07:15:51.919Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-10' }
+2021-05-24T07:15:51.920Z INFO webdriver: COMMAND elementClear("0.06703991284507338-10")
+2021-05-24T07:15:51.920Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-10/clear
+2021-05-24T07:15:51.957Z INFO webdriver: COMMAND elementSendKeys("0.06703991284507338-10", <object>)
+2021-05-24T07:15:51.957Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-10/value
+2021-05-24T07:15:51.957Z INFO webdriver: DATA {
+  value: [
+    'A', 'd', 'm', 'i',
+    'n', '@', '9', '8',
+    '0', '7'
+  ]
+}
+2021-05-24T07:15:52.033Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #systemUser_confirmPassword")
+2021-05-24T07:15:52.033Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:52.033Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#frmSystemUser #systemUser_confirmPassword'
+}
+2021-05-24T07:15:52.046Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-11' }
+2021-05-24T07:15:52.048Z INFO webdriver: COMMAND elementClear("0.06703991284507338-11")
+2021-05-24T07:15:52.048Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-11/clear
+2021-05-24T07:15:52.098Z INFO webdriver: COMMAND elementSendKeys("0.06703991284507338-11", <object>)
+2021-05-24T07:15:52.099Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-11/value
+2021-05-24T07:15:52.099Z INFO webdriver: DATA {
+  value: [
+    'A', 'd', 'm', 'i',
+    'n', '@', '9', '8',
+    '0', '7'
+  ]
+}
+2021-05-24T07:15:52.179Z INFO webdriver: COMMAND sendKeys(<object>)
+2021-05-24T07:15:52.180Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/keys
+2021-05-24T07:15:52.180Z INFO webdriver: DATA { value: [ '' ] }
+2021-05-24T07:15:52.187Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #btnSave")
+2021-05-24T07:15:52.187Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:52.187Z INFO webdriver: DATA { using: 'css selector', value: '#frmSystemUser #btnSave' }
+2021-05-24T07:15:52.197Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-12' }
+2021-05-24T07:15:52.199Z INFO webdriver: COMMAND moveToElement("0.06703991284507338-12", undefined, undefined)
+2021-05-24T07:15:52.200Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/moveto
+2021-05-24T07:15:52.200Z INFO webdriver: DATA { element: '0.06703991284507338-12' }
+2021-05-24T07:15:52.231Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #btnSave")
+2021-05-24T07:15:52.231Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:52.231Z INFO webdriver: DATA { using: 'css selector', value: '#frmSystemUser #btnSave' }
+2021-05-24T07:15:52.239Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-12' }
+2021-05-24T07:15:52.241Z INFO webdriver: COMMAND isElementDisplayed("0.06703991284507338-12")
+2021-05-24T07:15:52.241Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-12/displayed
+2021-05-24T07:15:52.252Z INFO webdriver: RESULT true
+2021-05-24T07:15:52.252Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:15:52.252Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/execute
+2021-05-24T07:15:52.252Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.06703991284507338-12',
+      ELEMENT: '0.06703991284507338-12'
+    }
+  ]
+}
+2021-05-24T07:15:52.258Z INFO webdriver: RESULT true
+2021-05-24T07:15:52.259Z INFO webdriver: COMMAND findElement("css selector", "#frmSystemUser #btnSave")
+2021-05-24T07:15:52.259Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:52.259Z INFO webdriver: DATA { using: 'css selector', value: '#frmSystemUser #btnSave' }
+2021-05-24T07:15:52.270Z INFO webdriver: RESULT { ELEMENT: '0.06703991284507338-12' }
+2021-05-24T07:15:52.273Z INFO webdriver: COMMAND elementClick("0.06703991284507338-12")
+2021-05-24T07:15:52.273Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.06703991284507338-12/click
+2021-05-24T07:15:52.321Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:52.321Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:52.321Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:52.333Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:52.337Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:52.337Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:52.337Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:52.345Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:52.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:52.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:52.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:52.847Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:53.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:53.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:53.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:53.347Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:53.837Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:53.837Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:53.837Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:53.845Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:54.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:54.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:54.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:54.345Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:54.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:54.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:54.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:54.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:55.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:55.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:55.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:55.351Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:55.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:55.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:55.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:55.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:56.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:56.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:56.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:56.346Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:56.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:56.839Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:56.839Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:56.848Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:57.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:57.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:57.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:57.349Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:57.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:57.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:57.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:57.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:58.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:58.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:58.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:58.346Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:58.837Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:58.837Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:58.837Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:58.845Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:59.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:59.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:59.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:59.353Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:15:59.837Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:15:59.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:15:59.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:15:59.848Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:00.339Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:00.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:00.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:00.353Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:00.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:00.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:00.839Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:00.849Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:01.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:01.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:01.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:01.354Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:01.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:01.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:01.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:01.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:02.339Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:02.340Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:02.340Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:02.351Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:02.837Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:02.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:02.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:02.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:03.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:03.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:03.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:03.347Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:03.837Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:03.837Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:03.837Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:03.845Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:04.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:04.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:04.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:04.352Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:04.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:04.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:04.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:04.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:05.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:05.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:05.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:05.347Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:05.839Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:05.840Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:05.840Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:05.852Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:06.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:06.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:06.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:06.347Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:06.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:06.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:06.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:06.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:07.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:07.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:07.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:07.350Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:07.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:07.839Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:07.839Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:07.848Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:08.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:08.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:08.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:08.352Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:08.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:08.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:08.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:08.847Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:09.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:09.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:09.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:09.350Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:09.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:09.839Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:09.839Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:09.852Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:10.339Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:10.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:10.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:10.353Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:10.837Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:10.837Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:10.837Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:10.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:11.337Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:11.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:11.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:11.354Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:11.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:11.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:11.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:11.850Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:12.337Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:12.337Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:12.337Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:12.353Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:12.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:12.839Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:12.839Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:12.847Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:13.339Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:13.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:13.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:13.354Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:13.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:13.839Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:13.839Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:13.847Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:14.337Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:14.337Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:14.337Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:14.345Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:14.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:14.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:14.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:14.849Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:15.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:15.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:15.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:15.354Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:15.837Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:15.837Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:15.837Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:15.844Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:16.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:16.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:16.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:16.349Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:16.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:16.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:16.839Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:16.850Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:17.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:17.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:17.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:17.353Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:17.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:17.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:17.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:17.847Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:18.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:18.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:18.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:18.353Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:18.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:18.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:18.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:18.847Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:19.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:19.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:19.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:19.350Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:19.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:19.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:19.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:19.846Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:20.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:20.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:20.338Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:20.347Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:20.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:20.839Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:20.839Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:20.849Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:21.339Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:21.339Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:21.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:21.355Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:21.838Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:21.838Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:21.838Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:21.848Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:22.338Z INFO webdriver: COMMAND findElement("css selector", "#systemUser-information #searchSystemUser_userName")
+2021-05-24T07:16:22.338Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:22.339Z INFO webdriver: DATA {
+  using: 'css selector',
+  value: '#systemUser-information #searchSystemUser_userName'
+}
+2021-05-24T07:16:22.351Z INFO webdriver: COMMAND takeScreenshot()
+2021-05-24T07:16:22.351Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/screenshot
+2021-05-24T07:16:22.360Z INFO webdriver: RESULT {
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#systemUser-information #searchSystemUser_userName"}\n' +
+    '  (Session info: headless chrome=86.0.4240.75)\n' +
+    '  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Linux 4.15.0-142-generic x86_64)'
+}
+2021-05-24T07:16:22.478Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABQAAAAMgCAYAAAB8mM/7AAAAAXNSR0IArs4c6...
+2021-05-24T07:16:22.479Z INFO webdriver: COMMAND takeScreenshot()
+2021-05-24T07:16:22.479Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/screenshot
+2021-05-24T07:16:22.590Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABQAAAAMgCAYAAAB8mM/7AAAAAXNSR0IArs4c6...
+2021-05-24T07:16:22.592Z INFO webdriver: COMMAND navigateTo("https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList")
+2021-05-24T07:16:22.593Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/url
+2021-05-24T07:16:22.593Z INFO webdriver: DATA {
+  url: 'https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList'
+}
+2021-05-24T07:16:25.535Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:16:25.535Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:25.535Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:16:25.546Z INFO webdriver: RESULT { ELEMENT: '0.8617319428255812-1' }
+2021-05-24T07:16:25.548Z INFO webdriver: COMMAND moveToElement("0.8617319428255812-1", undefined, undefined)
+2021-05-24T07:16:25.549Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/moveto
+2021-05-24T07:16:25.549Z INFO webdriver: DATA { element: '0.8617319428255812-1' }
+2021-05-24T07:16:25.579Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:16:25.579Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:25.579Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:16:25.587Z INFO webdriver: RESULT { ELEMENT: '0.8617319428255812-1' }
+2021-05-24T07:16:25.588Z INFO webdriver: COMMAND isElementDisplayed("0.8617319428255812-1")
+2021-05-24T07:16:25.589Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.8617319428255812-1/displayed
+2021-05-24T07:16:25.602Z INFO webdriver: RESULT true
+2021-05-24T07:16:25.602Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:16:25.602Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/execute
+2021-05-24T07:16:25.602Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.8617319428255812-1',
+      ELEMENT: '0.8617319428255812-1'
+    }
+  ]
+}
+2021-05-24T07:16:25.607Z INFO webdriver: RESULT true
+2021-05-24T07:16:25.608Z INFO webdriver: COMMAND findElement("css selector", "#welcome.panelTrigger")
+2021-05-24T07:16:25.608Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:25.608Z INFO webdriver: DATA { using: 'css selector', value: '#welcome.panelTrigger' }
+2021-05-24T07:16:25.617Z INFO webdriver: RESULT { ELEMENT: '0.8617319428255812-1' }
+2021-05-24T07:16:25.619Z INFO webdriver: COMMAND elementClick("0.8617319428255812-1")
+2021-05-24T07:16:25.619Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.8617319428255812-1/click
+2021-05-24T07:16:25.655Z INFO webdriver: COMMAND findElement("css selector", "[href*=logout]")
+2021-05-24T07:16:25.655Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:25.655Z INFO webdriver: DATA { using: 'css selector', value: '[href*=logout]' }
+2021-05-24T07:16:25.669Z INFO webdriver: RESULT { ELEMENT: '0.8617319428255812-2' }
+2021-05-24T07:16:25.671Z INFO webdriver: COMMAND isElementDisplayed("0.8617319428255812-2")
+2021-05-24T07:16:25.671Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.8617319428255812-2/displayed
+2021-05-24T07:16:25.683Z INFO webdriver: RESULT false
+2021-05-24T07:16:26.172Z INFO webdriver: COMMAND isElementDisplayed("0.8617319428255812-2")
+2021-05-24T07:16:26.172Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.8617319428255812-2/displayed
+2021-05-24T07:16:26.183Z INFO webdriver: RESULT true
+2021-05-24T07:16:26.184Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-05-24T07:16:26.184Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/execute
+2021-05-24T07:16:26.184Z INFO webdriver: DATA {
+  script: 'return (function isElementClickable(elem) {\n' +
+    '  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n' +
+    '    return false;\n' +
+    '  }\n' +
+    '\n' +
+    '  const isOldEdge = !!window.StyleMedia;\n' +
+    '  const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n' +
+    '\n' +
+    '  function getOverlappingElement(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elemDimension = elem.getBoundingClientRect();\n' +
+    '    const x = elemDimension.left + elem.clientWidth / 2;\n' +
+    '    const y = elemDimension.top + elem.clientHeight / 2;\n' +
+    '    return context.elementFromPoint(x, y);\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingRects(elem, context) {\n' +
+    '    context = context || document;\n' +
+    '    const elems = [];\n' +
+    '    const rects = elem.getClientRects();\n' +
+    '    const rect = rects[0];\n' +
+    '    const x = rect.left + rect.width / 2;\n' +
+    '    const y = rect.top + rect.height / 2;\n' +
+    '    elems.push(context.elementFromPoint(x, y));\n' +
+    '    return elems;\n' +
+    '  }\n' +
+    '\n' +
+    '  function getOverlappingElements(elem, context) {\n' +
+    '    return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n' +
+    '  }\n' +
+    '\n' +
+    '  function nodeContains(elem, otherNode) {\n' +
+    '    if (isOldEdge) {\n' +
+    '      let tmpElement = otherNode;\n' +
+    '\n' +
+    '      while (tmpElement) {\n' +
+    '        if (tmpElement === elem) {\n' +
+    '          return true;\n' +
+    '        }\n' +
+    '\n' +
+    '        tmpElement = tmpElement.parentNode;\n' +
+    '\n' +
+    '        if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n' +
+    '          tmpElement = tmpElement.host;\n' +
+    '        }\n' +
+    '      }\n' +
+    '\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return elem.contains(otherNode);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isOverlappingElementMatch(elementsFromPoint, elem) {\n' +
+    '    if (elementsFromPoint.some(function (elementFromPoint) {\n' +
+    '      return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n' +
+    '    })) {\n' +
+    '      return true;\n' +
+    '    }\n' +
+    '\n' +
+    '    let elemsWithShadowRoot = [].concat(elementsFromPoint);\n' +
+    '    elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n' +
+    '      return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n' +
+    '    });\n' +
+    '    let shadowElementsFromPoint = [];\n' +
+    '\n' +
+    '    for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n' +
+    '      let shadowElement = elemsWithShadowRoot[i];\n' +
+    '      shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n' +
+    '    }\n' +
+    '\n' +
+    '    shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n' +
+    '    shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n' +
+    '      return !elementsFromPoint.includes(x);\n' +
+    '    });\n' +
+    '\n' +
+    '    if (shadowElementsFromPoint.length === 0) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '      return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = window.innerHeight || document.documentElement.clientHeight;\n' +
+    '    const windowWidth = window.innerWidth || document.documentElement.clientWidth;\n' +
+    '    const vertInView = rect.top <= windowHeight && rect.top + rect.height > 0;\n' +
+    '    const horInView = rect.left <= windowWidth && rect.left + rect.width > 0;\n' +
+    '    return vertInView && horInView;\n' +
+    '  }\n' +
+    '\n' +
+    '  function isClickable(elem) {\n' +
+    '    return isElementInViewport(elem) && elem.disabled !== true && isOverlappingElementMatch(getOverlappingElements(elem), elem);\n' +
+    '  }\n' +
+    '\n' +
+    '  if (!isClickable(elem)) {\n' +
+    '    elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "      block: 'nearest',\n" +
+    "      inline: 'nearest'\n" +
+    '    } : false);\n' +
+    '\n' +
+    '    if (!isClickable(elem)) {\n' +
+    '      elem.scrollIntoView(scrollIntoViewFullSupport ? {\n' +
+    "        block: 'center',\n" +
+    "        inline: 'center'\n" +
+    '      } : true);\n' +
+    '      return isClickable(elem);\n' +
+    '    }\n' +
+    '  }\n' +
+    '\n' +
+    '  return true;\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0.8617319428255812-2',
+      ELEMENT: '0.8617319428255812-2'
+    }
+  ]
+}
+2021-05-24T07:16:26.190Z INFO webdriver: RESULT true
+2021-05-24T07:16:26.190Z INFO webdriver: COMMAND findElement("css selector", "[href*=logout]")
+2021-05-24T07:16:26.190Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element
+2021-05-24T07:16:26.190Z INFO webdriver: DATA { using: 'css selector', value: '[href*=logout]' }
+2021-05-24T07:16:26.199Z INFO webdriver: RESULT { ELEMENT: '0.8617319428255812-2' }
+2021-05-24T07:16:26.200Z INFO webdriver: COMMAND elementClick("0.8617319428255812-2")
+2021-05-24T07:16:26.200Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/element/0.8617319428255812-2/click
+2021-05-24T07:16:29.072Z INFO webdriver: COMMAND getLogTypes()
+2021-05-24T07:16:29.072Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/se/log/types
+2021-05-24T07:16:29.073Z INFO webdriver: RESULT [ 'browser', 'driver' ]
+2021-05-24T07:16:29.074Z INFO webdriver: COMMAND getLogs("browser")
+2021-05-24T07:16:29.074Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/se/log
+2021-05-24T07:16:29.074Z INFO webdriver: DATA { type: 'browser' }
+2021-05-24T07:16:29.074Z INFO webdriver: COMMAND getLogs("driver")
+2021-05-24T07:16:29.074Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290/se/log
+2021-05-24T07:16:29.074Z INFO webdriver: DATA { type: 'driver' }
+2021-05-24T07:16:29.078Z INFO webdriver: RESULT []
+2021-05-24T07:16:29.078Z INFO webdriver: RESULT [
+  {
+    level: 'WARNING',
+    message: 'Deprecated chrome option is ignored: useAutomationExtension\n',
+    timestamp: 1621840455305
+  }
+]
+2021-05-24T07:16:29.079Z INFO webdriver: COMMAND deleteSession()
+2021-05-24T07:16:29.080Z INFO webdriver: [DELETE] http://127.0.0.1:4444/wd/hub/session/eebc54075cc9ffb9091dbde580eb4290
