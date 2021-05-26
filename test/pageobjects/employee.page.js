@@ -1,5 +1,6 @@
 const Page = require('./page');
 const adminPage = require('../pageobjects/admin.page');
+const loginPage = require('../pageobjects/login.page');
 
 /**
  * sub page containing specific selectors and methods for a specific page
@@ -28,6 +29,12 @@ class EmployeePage extends Page {
 
     open () {
         return super.open('/pim/viewEmployeeList');
+    }
+
+    login(userName,Password) {
+        this.open();
+        loginPage.login(userName,Password);
+
     }
 
     deleteEmployee(employeeName){

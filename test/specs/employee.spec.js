@@ -1,36 +1,32 @@
-const path = require('path');
 const chai = require('chai');
+
 const loginPage = require('../pageobjects/login.page');
 const infoPage = require('../pageobjects/info.page');
 const employeePage = require('../pageobjects/employee.page');
-const adminPage = require('../pageobjects/admin.page');
 
 const chaiWebdriver = require('chai-webdriverio').default;
-
 chai.use(chaiWebdriver(browser));
 
-describe('employee suite', () => {
+describe('add new employee suite', () => {
     const firstName='john'+Math.round(Math.random() * 10000000);
     const middleName='kumar'+Math.round(Math.random() * 10000000);
     const lastName='gara'+Math.round(Math.random() * 10000000);
     beforeEach(() => {
-        employeePage.open();
-        loginPage.login(browser.config.username, browser.config.password);
+        employeePage.login(browser.config.username, browser.config.password);
     });
     afterEach(() => {
+        employeePage.open();
         loginPage.logout();
     });
 
     afterAll(() => {
-        employeePage.open();
-        loginPage.login(browser.config.username, browser.config.password);
+        employeePage.login(browser.config.username, browser.config.password);
         employeePage.deleteEmployee(firstName);
+        employeePage.open();
         loginPage.logout();
     });
 
     it('should able to add new employee', () => {
-        const filePath = path.join(__dirname, './camel.jpeg');
-        const name='curran'+Math.round(Math.random() * 10000000);
         employeePage.addEmployee(firstName,middleName,lastName);
         infoPage.personalDetailHeader.waitForDisplayed();
 
@@ -38,9 +34,7 @@ describe('employee suite', () => {
 
     });
 
-    it('should not able to add new employee when all fileds not provided', () => {
-        const filePath = path.join(__dirname, './camel.jpeg');
-        const name='curran'+Math.round(Math.random() * 10000000);
+    it('should not able to add new employee when all fields not provided', () => {
         employeePage.addEmployee(firstName,middleName);
 
         chai.expect(employeePage.validationError.getText(),

@@ -57,6 +57,7 @@
     "pre-commit": "latest",
     "react": "^16.9.0",
     "selenium-standalone": "^6.23.0",
+    "wdio-browserstack-service": "^0.1.19",
     "wdio-video-reporter": "^2.0.1"
   }
 }

@@ -20,9 +20,10 @@ class InfoPage extends Page {
         return super.open('pim/viewMyDetails');
     }
 
-    login(){
+    login(userName,Password) {
         this.open();
-        LoginPage.login();
+        LoginPage.login(userName,Password);
+
     }
 }
 

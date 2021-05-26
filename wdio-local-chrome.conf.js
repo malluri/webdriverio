@@ -28,7 +28,7 @@ exports.config = merge(wdioConf, {
     browserName: 'chrome',
     'goog:chromeOptions': {
       w3c: false,
-      useAutomationExtension: false,
+      // useAutomationExtension: true,
       // args: ['--window-size=1280,800'],
       args: ['--headless', '--no-sandbox', '--disable-dev-shm-usage', '--window-size=1280,800'],
       prefs: {

@@ -6,6 +6,10 @@ const moment = require('moment');
 // const allure = require('allure-commandline');
 
 exports.config = {
+
+    user: process.env.BROWSERSTACK_USERNAME,
+    key: process.env.BROWSERSTACK_ACCESS_KEY,
+    // browserstackLocal: true,
     /**
      * The number of times to retry the entire specfile when it fails as a whole
      */
@@ -123,6 +127,7 @@ exports.config = {
      commands. Instead, they hook themselves up into the test process.
      */
     services: ['selenium-standalone'],
+    // services: ['browserstack'],
     /**
      Framework you want to run your specs with.
      The following are supported: Mocha, Jasmine, and Cucumber

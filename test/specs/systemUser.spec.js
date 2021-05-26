@@ -1,30 +1,29 @@
-const path = require('path');
 const chai = require('chai');
+
 const loginPage = require('../pageobjects/login.page');
-const infoPage = require('../pageobjects/info.page');
 const employeePage = require('../pageobjects/employee.page');
 const adminPage = require('../pageobjects/admin.page');
 
 const chaiWebdriver = require('chai-webdriverio').default;
-
 chai.use(chaiWebdriver(browser));
 
-describe('system user suite', () => {
-
+describe('add new system user suite', () => {
     const firstName='john'+Math.round(Math.random() * 10000000);
     const middleName='kumar'+Math.round(Math.random() * 10000000);
     const lastName='gara'+Math.round(Math.random() * 10000000);
     const userName='curran'+Math.round(Math.random() * 10000000);
+
     beforeAll(() => {
-        employeePage.open();
-        loginPage.login(browser.config.username, browser.config.password);
+        employeePage.login(browser.config.username, browser.config.password);
         employeePage.addEmployee(firstName,middleName,lastName);
     });
-    afterEach(() => {
+
+    afterAll(() => {
         employeePage.open();
         loginPage.logout();
     });
 
+    /** search operation */
     it('should able add new system user', () => {
         adminPage.open();
         adminPage.userManagementDropDown.waitForClickable();
@@ -34,7 +33,7 @@ describe('system user suite', () => {
         adminPage.addButton.click();
         adminPage.selectUserRole('Admin');
         adminPage.employeeName.setValue(firstName+' '+middleName+' '+lastName);
-        adminPage.userName.setValue(userName)
+        adminPage.userName.setValue(userName);
         browser.keys('Enter');
         adminPage.selectStatus('Enabled');
         adminPage.userPassword.setValue('Admin@9807');
@@ -53,8 +52,5 @@ describe('system user suite', () => {
             'customer list table did not load');
         chai.expect(adminPage.customerListInTable.length >= 1,
             'added system user not displayed in customer list table').to.be.true;
-
-
-
     });
 });
