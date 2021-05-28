@@ -17,8 +17,6 @@ class EmployeePage extends Page {
     get employeeListButton() {return $('#menu_pim_viewEmployeeList');}
 
     addEmployee(fname,mname,lname) {
-        // this.pimButton.waitForClickable();
-        // this.pimButton.click();
         this.addEmployeeButton.waitForClickable();
         this.addEmployeeButton.click();
         this.employeeFirstName.setValue(fname);
@@ -38,8 +36,6 @@ class EmployeePage extends Page {
     }
 
     deleteEmployee(employeeName){
-        // this.pimButton.waitForClickable();
-        // this.pimButton.click();
         this.employeeListButton.waitForClickable();
         this.employeeListButton.click();
         adminPage.employeeNameInEmpInfo.waitForClickable();
